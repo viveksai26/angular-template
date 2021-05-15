@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod --base-href=/FD/ --deploy-url=/FD/",
     "test": "ng test",
     "lint": "eslint --ext .ts client/src --fix",
     "format": "prettier --write \"client/src/**/*.ts\"",
